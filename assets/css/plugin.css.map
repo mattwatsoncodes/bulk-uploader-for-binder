@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"sourceRoot": "assets/css",
+	"file": "plugin.css",
+	"sources": [
+		"../src/sass/plugin.scss"
+	],
+	"sourcesContent": [
+		"@charset \"UTF-8\";\n\n/* ==========================================================================\n   PLUGIN SCSS\n   ========================================================================== */\n\n/**\n * CSS for the plugin front end.\n *\n * The CSS here should exist here just for reference. We highly recommend that\n * you delete this CSS and create your own within your existing theme, and\n * concatinate it within your existing workflow.\n */\n"
+	],
+	"mappings": "AAEA;;gFAEgF;AAEhF;;;;;;GAMG",
+	"names": []
+}

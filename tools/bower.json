@@ -1,0 +1,19 @@
+{
+  "name": "bulk-upload-for-binder",
+  "version": "0.1.0",
+  "authors": [
+    "mwtsn, davetgreen, mkdo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "modernizr": "latest",
+	"inuitcss": "^6.0.0-beta.4",
+	"dropzone": "*",
+  }
+}

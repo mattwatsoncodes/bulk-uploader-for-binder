@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   PLUGIN ADMIN SCSS
+   ========================================================================== */
+
+/**
+ * CSS for the plugin front end.
+ *
+ * The CSS here should exist here just for reference. We highly recommend that
+ * you delete this CSS and create your own within your existing theme, and
+ * concatinate it within your existing workflow.
+ */
+
+// Import Dropzone Basic Styles.
+@import "../../../tools/bower_components/dropzone/dist/dropzone";
+
+// Custom Dropzone Styles.
+form.dropzone {
+	background-color: white;
+	border: 1px dashed #ddd;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 50px 20px 50px 20px;
+}
