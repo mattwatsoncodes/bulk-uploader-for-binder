@@ -33,7 +33,7 @@ class Bulk_Uploader {
 	 *
 	 * The dropzone area for binder bulk uploads.
 	 */
-	function bulk_uploader() {
+	function bulk_uploader( $html ) {
 		// If binder isnt enabled, exit.
 		if ( ! defined( 'MKDO_BINDER_PREFIX' ) ) {
 			return;
@@ -51,6 +51,7 @@ class Bulk_Uploader {
 		</div>
 		<p><em><?php esc_html_e( 'After you have uploaded your files, refresh your browser to view them in the list below.', 'binder' );?></em></p>
 		<?php
+		return $html;
 	}
 
 	/**
